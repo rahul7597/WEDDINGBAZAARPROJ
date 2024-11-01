@@ -36,11 +36,9 @@
     ul{
         li{
             margin: 0px 10px;
-            /* color: #ef4a6b; */
-            /* color: blue; */
-            /* color: red; */
-            color: black;
+            color: #ef4a6b; 
             font-family:sans-serif,"Poppins";
+            font-weight: 300;
         }
     }
 }
