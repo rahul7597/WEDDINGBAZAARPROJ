@@ -1,0 +1,21 @@
+.header{
+    background-image:url(https://img.weddingbazaar.com/shaadisaga_production/static/vendor_categories/heroBannerImageDesktop2x.jpg);
+    /* height: 600px; */
+    height: 100vh;
+    justify-content: center;
+    color: #ffffff;
+    font-family:"Poppins" , sans-serif;
+
+    .mid{
+        h1{
+            font-size: 47px;
+        }
+        h3{
+            font-size: 22.5px;
+        }
+        span{
+            color: #ef4a6b;
+        }
+    }
+
+}

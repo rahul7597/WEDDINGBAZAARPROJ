@@ -1,0 +1,43 @@
+.nav{
+    padding:0% 5%;
+    /* border: 1px solid #ef4a6b; */
+    position: sticky;
+    top: 0;
+    align-items: center;
+    background-color: #ffffff;
+    img{
+        height: 80%;
+        width: 80%;
+        /* border: 2px solid black; */
+    }
+    button{
+        width: 30%;
+        border: 1px solid #ef4a6b;
+        border-radius: 15px;
+        overflow: hidden;
+        background-color: #fff;
+        input
+        {
+            width: 84.5%;
+            padding-left: 3%;
+            font-size: 17px;
+            caret-color: #ef4a6b;
+            color: #ef4a6b;
+        }::placeholder {color: #ef4a6b;};
+        i
+        {
+            font-size: 20px;
+            background-color: #ef4a6b;
+            color: #fff;
+            padding:2% 5%;
+        }
+        
+    }
+    ul{
+        li{
+            margin: 0px 10px;
+            color: #ef4a6b;
+            font-family:sans-serif,"Poppins";
+        }
+    }
+}

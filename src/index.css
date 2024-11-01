@@ -1,0 +1,20 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:"Poppins",sans-serif;
+  font-weight:600;
+  input{
+    border: none;
+    outline: none;
+  }
+  li{
+    list-style: none;
+    background-color: transparent;
+    font-size: 20px;
+  }
+  a{
+     text-decoration: none;
+     background-color: transparent;
+  }
+}

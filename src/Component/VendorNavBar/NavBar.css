@@ -1,0 +1,7 @@
+/* .nav{
+    display: none;
+} */
+.navbar{
+    background-color: #4a90e2;
+    justify-content: space-between;
+}
