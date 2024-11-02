@@ -1,9 +1,10 @@
 .nav-container {
     padding: 0% 5%;
+    padding-top: 1%;
     position: sticky;
     top: 0;
     background-color: #ffffff;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -96,6 +97,14 @@
       /* border: 3px solid black; */
 
     }
+    hr{
+      position: absolute;
+      width: 100%;
+      top:58%;
+      left: 0;
+      /* color: #ef4a6b; */
+      border: 1px solid #ef4a6b;
+    }
     .logo-part {
       /* width: 100%; */
       /* border: 2px solid black; */
@@ -120,23 +129,27 @@
       
       button{
         /* border: 4px solid green; */
+        display: flex;
+        align-items: center;
         input{
             /* border: 3px solid red; */
-            width: 80%;
-            padding-top:8px ;
+            width: 75%;
+            padding-top:5px ;
             padding-bottom:5px ;
-            font-size: 5px;
+            font-size: 13px;
+            font-family: "Poppins";
+            font-weight: 500;
         }
         input::placeholder{
             /* color: black; */
-            font-size: 10px;
+            font-size: 13px;
+            font-weight: 400;
         }
         i{
-            width: 20%;
-            padding: 0%;
-            font-size:15px;
-            padding-top: 5px;
-            padding-bottom: 5px;
+            width: 25%;
+            padding-top: 6px;
+            padding-bottom: 6px;
+            font-size: 18px;
             
           
         }
@@ -147,29 +160,67 @@
       /* flex-direction: column; */
       /* border: 4px solid red;  */
       margin: 5px 0px;
+      padding-top: 10px;
+      /* margin-top: 20px; */
       border: none;
-      display: flex;   
+      /* border-top: 1px solid #ef4a6b; */
+      /* display: flex;    */
       /* flex-grow: 1; */
       /* flex-shrink: 1; */
       flex-basis: 100%;
+
+      /* justify-content: space-between; */
       li{
         font-size: 12px;
-        margin: 0px;
+        font-family: "Poppins";
+        font-weight: 550;
+        margin: 0px 10px;
       }
 
     }
   }
   
-  @media (max-width: 435px) {
+  @media (min-width: 401px) and (max-width: 700px) {
     .nav-container {
-      flex-direction: column;
+      /* flex-direction: column; */
+      border: 3px solid blue;
+      justify-content: space-between;
+      
     }
     .logo-part {
-        width: 100%;
+        /* width: 100%; */
+        display: flex;
+        flex-basis: 40%;
+        /* border: 3px solid red; */
       }
       .search-part {
-        width: 100%;
+        /* width: 100%; */
+        flex-basis: 50%;
+        margin-left: 14px;
+        input{
+          /* border: 3px solid black; */
+          flex-basis: 70%;
+          font-size: 15px;
+          font-family: "Poppins";
+          padding-left: 10px;
+          font-weight: 410;
+        }
+        input::placeholder{
+          /* color: red; */
+          font-size: 14px;
+          font-family: "Poppins",sans-serif;
+          font-weight: 400;
+        }
+        i{
+           /* border: 3px solid green; */
+           font-size: 17px;
+           /* padding: 10px; */
+           padding-top:5px;
+           padding-bottom: 5px;
+           flex-basis: 20%;
+        }
       }
+    
       .nav-links-part {
         width: 100%;
         flex-direction: column;

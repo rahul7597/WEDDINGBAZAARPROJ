@@ -19,6 +19,7 @@ function Nav() {
               <i className="fa-solid fa-magnifying-glass"></i>
             </button>
           </div>
+          <hr />
           <div className="nav-links-part">
             <ul className="nav-links flex">
               <Link to="/Home">
