@@ -3,7 +3,7 @@
     position: sticky;
     top: 0;
     background-color: #ffffff;
-    /* border: 2px solid blue; */
+    border: 2px solid blue;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -90,7 +90,7 @@
   
   /* Mobile version */
   
-  @media (max-width: 340px) {
+  @media (max-width: 400px) {
     .nav-container {
       /* flex-direction: column; */
       /* border: 3px solid black; */
