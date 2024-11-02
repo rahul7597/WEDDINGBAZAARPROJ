@@ -26,3 +26,18 @@
         }
     }
 }
+
+@media (max-width:370px) {
+    .vendors{
+        span{
+            font-size:15px;
+
+            button{
+                padding: 0px;
+            }
+            button i{
+                font-size: 10px;
+            }
+        }
+    }
+}

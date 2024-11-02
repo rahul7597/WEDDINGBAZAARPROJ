@@ -19,3 +19,21 @@
     }
 
 }
+@media (max-width:430px) {
+    .header{
+        height: 50vh;
+        .mid{
+            h1{
+                font-size:25px;
+                font-weight: 900;
+                span{
+                    font-weight: 900;
+                }
+            }
+            h3{
+                font-size: 13px;
+            }
+        }
+    }
+    
+}
