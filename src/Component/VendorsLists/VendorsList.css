@@ -49,12 +49,14 @@ a{
 @media (max-width:390px) {
 
     .products{
-        /* border: 3px solid red; */
+        /* border: 3px solid black; */
+        
      a{
-        width:27%;
-        width:89px;
+        /* width:27%; */
+        width:100px;
         /* border: 1px solid red; */
-        margin: 8px;
+        
+        margin: 5px;
         padding: 10px;
         img{
             /* border: 2px solid green; */
