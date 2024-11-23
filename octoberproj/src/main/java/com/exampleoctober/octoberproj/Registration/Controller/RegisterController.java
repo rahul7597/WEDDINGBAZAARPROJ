@@ -33,7 +33,7 @@ import com.exampleoctober.octoberproj.Security.JwtUtil;
 import io.micrometer.common.lang.NonNull;
 
 @RestController
-@CrossOrigin("*")
+@CrossOrigin("https://weddingbazaarproject.vercel.app")
 public class RegisterController 
 {
     private final RegisterService serv;
