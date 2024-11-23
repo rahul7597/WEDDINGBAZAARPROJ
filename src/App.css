@@ -6,7 +6,8 @@
   align-items: center;
   flex-wrap: wrap;
 }
-.bg{
+.bg
+{
   background-position: center;
   background-size: cover;
 }
